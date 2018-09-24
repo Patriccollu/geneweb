@@ -1,10 +1,10 @@
 # $Id: Makefile.inc.unix,v 1.6 2007-09-12 09:58:44 ddr Exp $
 
-GW_DIR=/Users/Henri/GitHub/hgouraud/geneweb/
+GW_DIR=/home/fabien/work/git/extern/fablhx/geneweb/
 TOP=..
 CAMLP5_COMM=TOP=$(TOP) $(TOP)/tools/camlp5_comm.sh
 CAMLP5F=-DUNIX
-CAMLP5D=+camlp5
+CAMLP5D=/home/fabien/prefix/opam/root/4.05.0/lib/camlp5
 LIBUNIX=-cclib -lunix
 OCAMLC=ocamlc.opt -w -3 -warn-error +a-52 -safe-string
 OCAMLOPT=ocamlopt.opt -w -3 -warn-error +a-52 -safe-string
